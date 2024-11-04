@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FEE3A82CD98B3D00957976 /* DormsyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEE3A72CD98B3D00957976 /* DormsyApp.swift */; };
+		20FEE3AA2CD98B3D00957976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEE3A92CD98B3D00957976 /* ContentView.swift */; };
+		20FEE3AC2CD98B3F00957976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FEE3AB2CD98B3F00957976 /* Assets.xcassets */; };
+		20FEE3B02CD98B3F00957976 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FEE3AF2CD98B3F00957976 /* Preview Assets.xcassets */; };
+		20FEE3BA2CD98B3F00957976 /* DormsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEE3B92CD98B3F00957976 /* DormsyTests.swift */; };
+		20FEE3C42CD98B3F00957976 /* DormsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEE3C32CD98B3F00957976 /* DormsyUITests.swift */; };
+		20FEE3C62CD98B3F00957976 /* DormsyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FEE3C52CD98B3F00957976 /* DormsyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20FEE3B62CD98B3F00957976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FEE39C2CD98B3D00957976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FEE3A32CD98B3D00957976;
+			remoteInfo = Dormsy;
+		};
+		20FEE3C02CD98B3F00957976 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FEE39C2CD98B3D00957976 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FEE3A32CD98B3D00957976;
+			remoteInfo = Dormsy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FEE3A42CD98B3D00957976 /* Dormsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dormsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FEE3A72CD98B3D00957976 /* DormsyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormsyApp.swift; sourceTree = "<group>"; };
+		20FEE3A92CD98B3D00957976 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20FEE3AB2CD98B3F00957976 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FEE3AD2CD98B3F00957976 /* Dormsy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dormsy.entitlements; sourceTree = "<group>"; };
+		20FEE3AF2CD98B3F00957976 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20FEE3B52CD98B3F00957976 /* DormsyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormsyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FEE3B92CD98B3F00957976 /* DormsyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormsyTests.swift; sourceTree = "<group>"; };
+		20FEE3BF2CD98B3F00957976 /* DormsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FEE3C32CD98B3F00957976 /* DormsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormsyUITests.swift; sourceTree = "<group>"; };
+		20FEE3C52CD98B3F00957976 /* DormsyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormsyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FEE3A12CD98B3D00957976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3B22CD98B3F00957976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3BC2CD98B3F00957976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FEE39B2CD98B3D00957976 = {
+			isa = PBXGroup;
+			children = (
+				20FEE3A62CD98B3D00957976 /* Dormsy */,
+				20FEE3B82CD98B3F00957976 /* DormsyTests */,
+				20FEE3C22CD98B3F00957976 /* DormsyUITests */,
+				20FEE3A52CD98B3D00957976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FEE3A52CD98B3D00957976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FEE3A42CD98B3D00957976 /* Dormsy.app */,
+				20FEE3B52CD98B3F00957976 /* DormsyTests.xctest */,
+				20FEE3BF2CD98B3F00957976 /* DormsyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FEE3A62CD98B3D00957976 /* Dormsy */ = {
+			isa = PBXGroup;
+			children = (
+				20FEE3A72CD98B3D00957976 /* DormsyApp.swift */,
+				20FEE3A92CD98B3D00957976 /* ContentView.swift */,
+				20FEE3AB2CD98B3F00957976 /* Assets.xcassets */,
+				20FEE3AD2CD98B3F00957976 /* Dormsy.entitlements */,
+				20FEE3AE2CD98B3F00957976 /* Preview Content */,
+			);
+			path = Dormsy;
+			sourceTree = "<group>";
+		};
+		20FEE3AE2CD98B3F00957976 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20FEE3AF2CD98B3F00957976 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20FEE3B82CD98B3F00957976 /* DormsyTests */ = {
+			isa = PBXGroup;
+			children = (
+				20FEE3B92CD98B3F00957976 /* DormsyTests.swift */,
+			);
+			path = DormsyTests;
+			sourceTree = "<group>";
+		};
+		20FEE3C22CD98B3F00957976 /* DormsyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20FEE3C32CD98B3F00957976 /* DormsyUITests.swift */,
+				20FEE3C52CD98B3F00957976 /* DormsyUITestsLaunchTests.swift */,
+			);
+			path = DormsyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FEE3A32CD98B3D00957976 /* Dormsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FEE3C92CD98B3F00957976 /* Build configuration list for PBXNativeTarget "Dormsy" */;
+			buildPhases = (
+				20FEE3A02CD98B3D00957976 /* Sources */,
+				20FEE3A12CD98B3D00957976 /* Frameworks */,
+				20FEE3A22CD98B3D00957976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dormsy;
+			productName = Dormsy;
+			productReference = 20FEE3A42CD98B3D00957976 /* Dormsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20FEE3B42CD98B3F00957976 /* DormsyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FEE3CC2CD98B3F00957976 /* Build configuration list for PBXNativeTarget "DormsyTests" */;
+			buildPhases = (
+				20FEE3B12CD98B3F00957976 /* Sources */,
+				20FEE3B22CD98B3F00957976 /* Frameworks */,
+				20FEE3B32CD98B3F00957976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FEE3B72CD98B3F00957976 /* PBXTargetDependency */,
+			);
+			name = DormsyTests;
+			productName = DormsyTests;
+			productReference = 20FEE3B52CD98B3F00957976 /* DormsyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20FEE3BE2CD98B3F00957976 /* DormsyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FEE3CF2CD98B3F00957976 /* Build configuration list for PBXNativeTarget "DormsyUITests" */;
+			buildPhases = (
+				20FEE3BB2CD98B3F00957976 /* Sources */,
+				20FEE3BC2CD98B3F00957976 /* Frameworks */,
+				20FEE3BD2CD98B3F00957976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FEE3C12CD98B3F00957976 /* PBXTargetDependency */,
+			);
+			name = DormsyUITests;
+			productName = DormsyUITests;
+			productReference = 20FEE3BF2CD98B3F00957976 /* DormsyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FEE39C2CD98B3D00957976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					20FEE3A32CD98B3D00957976 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					20FEE3B42CD98B3F00957976 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20FEE3A32CD98B3D00957976;
+					};
+					20FEE3BE2CD98B3F00957976 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 20FEE3A32CD98B3D00957976;
+					};
+				};
+			};
+			buildConfigurationList = 20FEE39F2CD98B3D00957976 /* Build configuration list for PBXProject "Dormsy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FEE39B2CD98B3D00957976;
+			productRefGroup = 20FEE3A52CD98B3D00957976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FEE3A32CD98B3D00957976 /* Dormsy */,
+				20FEE3B42CD98B3F00957976 /* DormsyTests */,
+				20FEE3BE2CD98B3F00957976 /* DormsyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FEE3A22CD98B3D00957976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FEE3B02CD98B3F00957976 /* Preview Assets.xcassets in Resources */,
+				20FEE3AC2CD98B3F00957976 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3B32CD98B3F00957976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3BD2CD98B3F00957976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FEE3A02CD98B3D00957976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FEE3AA2CD98B3D00957976 /* ContentView.swift in Sources */,
+				20FEE3A82CD98B3D00957976 /* DormsyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3B12CD98B3F00957976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FEE3BA2CD98B3F00957976 /* DormsyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FEE3BB2CD98B3F00957976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FEE3C62CD98B3F00957976 /* DormsyUITestsLaunchTests.swift in Sources */,
+				20FEE3C42CD98B3F00957976 /* DormsyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20FEE3B72CD98B3F00957976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FEE3A32CD98B3D00957976 /* Dormsy */;
+			targetProxy = 20FEE3B62CD98B3F00957976 /* PBXContainerItemProxy */;
+		};
+		20FEE3C12CD98B3F00957976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FEE3A32CD98B3D00957976 /* Dormsy */;
+			targetProxy = 20FEE3C02CD98B3F00957976 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20FEE3C72CD98B3F00957976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20FEE3C82CD98B3F00957976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		20FEE3CA2CD98B3F00957976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dormsy/Dormsy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dormsy/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.Dormsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FEE3CB2CD98B3F00957976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dormsy/Dormsy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dormsy/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.Dormsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20FEE3CD2CD98B3F00957976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.DormsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dormsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dormsy";
+			};
+			name = Debug;
+		};
+		20FEE3CE2CD98B3F00957976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.DormsyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dormsy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dormsy";
+			};
+			name = Release;
+		};
+		20FEE3D02CD98B3F00957976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.DormsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dormsy;
+			};
+			name = Debug;
+		};
+		20FEE3D12CD98B3F00957976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7U4ZRRBBNS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = testing.DormsyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dormsy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FEE39F2CD98B3D00957976 /* Build configuration list for PBXProject "Dormsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEE3C72CD98B3F00957976 /* Debug */,
+				20FEE3C82CD98B3F00957976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FEE3C92CD98B3F00957976 /* Build configuration list for PBXNativeTarget "Dormsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEE3CA2CD98B3F00957976 /* Debug */,
+				20FEE3CB2CD98B3F00957976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FEE3CC2CD98B3F00957976 /* Build configuration list for PBXNativeTarget "DormsyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEE3CD2CD98B3F00957976 /* Debug */,
+				20FEE3CE2CD98B3F00957976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FEE3CF2CD98B3F00957976 /* Build configuration list for PBXNativeTarget "DormsyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEE3D02CD98B3F00957976 /* Debug */,
+				20FEE3D12CD98B3F00957976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FEE39C2CD98B3D00957976 /* Project object */;
+}
